@@ -35,7 +35,7 @@ var fs = require("fs");
 var fd = fs.openSync("hello.txt" , "w");
 
 //向文件中写入内容
-fs.writeSync(fd , "今天天气真不错~~~", 2);
+fs.writeSync(fd , "今天天气真不错~~~",10);
 
 //关闭文件
 fs.closeSync(fd);

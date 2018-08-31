@@ -27,7 +27,7 @@ var fs = require("fs");
 //C:\Users\lilichao\Desktop\hello.txt
 //C:\\Users\\lilichao\\Desktop\\hello.txt
 
-fs.writeFile("C:/Users/lilichao/Desktop/hello.txt","这是通过writeFile写入的内容",{flag:"w"} , function (err) {
+fs.writeFile("C:/Users/HuangFuBin/Desktop/hello.txt","这是通过writeFile写入的内容",{flag:"w"} , function (err) {
 	if(!err){
 		console.log("写入成功~~~");
 	}else{
