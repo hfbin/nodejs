@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b65f67-39ad-4483-bd21-2dfe61d8c7be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node02/02.fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node02/02.fs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node02/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node02/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node02/04.简单文件写入.js" beforeDir="false" afterPath="$PROJECT_DIR$/node02/04.简单文件写入.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node02/hello3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node02/hello3.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +18,7 @@
     <session id="1179092238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -33,26 +32,28 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="23" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JavaScript" value="27" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="115" />
+          <entry key="js" value="116" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="23" />
+          <entry key="js" value="27" />
           <entry key="json" value="3" />
-          <entry key="txt" value="10" />
+          <entry key="ts" value="1" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="115" />
+          <entry key="JavaScript" value="116" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -61,19 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node02/03.异步文件写入.js">
+        <entry file="file://$PROJECT_DIR$/node02/05.流式文件写入.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node02/04.简单文件写入.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="-17">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -82,10 +74,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node02/02.fs.js">
+        <entry file="file://$PROJECT_DIR$/node02/hello3.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node02/03.异步文件写入.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node02/04.简单文件写入.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node02/07.流式文件读取.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -134,11 +152,11 @@
       <path value="$PROJECT_DIR$/node02/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="227" />
-    <option name="y" value="-20" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="101" />
+    <option name="y" value="60" />
     <option name="width" value="1750" />
-    <option name="height" value="923" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,10 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.03.异步文件写入.js">
-    <configuration name="01.buffer1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01.buffer1.js" working-dir="$PROJECT_DIR$/node02">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.05.流式文件写入.js">
     <configuration name="01.buffer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01.buffer.js" working-dir="$PROJECT_DIR$/node02">
       <method v="2" />
     </configuration>
@@ -211,23 +226,26 @@
     <configuration name="03.异步文件写入.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="03.异步文件写入.js" working-dir="$PROJECT_DIR$/node02">
       <method v="2" />
     </configuration>
-    <configuration name="buffer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="buffer.js" working-dir="$PROJECT_DIR$">
+    <configuration name="04.简单文件写入.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="04.简单文件写入.js" working-dir="$PROJECT_DIR$/node02">
+      <method v="2" />
+    </configuration>
+    <configuration name="05.流式文件写入.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="05.流式文件写入.js" working-dir="$PROJECT_DIR$/node02">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.buffer.js" />
-      <item itemvalue="Node.js.01.buffer1.js" />
       <item itemvalue="Node.js.01.buffer.js" />
       <item itemvalue="Node.js.02.fs.js" />
       <item itemvalue="Node.js.03.异步文件写入.js" />
+      <item itemvalue="Node.js.04.简单文件写入.js" />
+      <item itemvalue="Node.js.05.流式文件写入.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.05.流式文件写入.js" />
+        <item itemvalue="Node.js.04.简单文件写入.js" />
         <item itemvalue="Node.js.03.异步文件写入.js" />
         <item itemvalue="Node.js.02.fs.js" />
         <item itemvalue="Node.js.01.buffer.js" />
-        <item itemvalue="Node.js.buffer.js" />
-        <item itemvalue="Node.js.01.buffer1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -248,30 +266,29 @@
       <workItem from="1535332308288" duration="2386000" />
       <workItem from="1535468526932" duration="2084000" />
       <workItem from="1535643420820" duration="3258000" />
-      <workItem from="1535719079490" duration="2941000" />
+      <workItem from="1535719079490" duration="6667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27418000" />
+    <option name="totallyTimeSpent" value="31144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="82" y="49" width="1400" height="738" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22523117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32697946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3814433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3287879" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.41874084" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.17741935" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,15 +386,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node02/03.异步文件写入.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node02/hello3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node02/05.流式文件写入.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node02/04.简单文件写入.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="253">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node02/07.流式文件读取.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
